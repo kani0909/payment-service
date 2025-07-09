@@ -10,7 +10,11 @@
     <packaging>pom</packaging>
     <modules>
         <module>simple-http-server</module>
+        <module>payment-service-app</module>
     </modules>
+
+    <name>Payment Service</name>
+    <description>Parent project for Payment Service</description>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
